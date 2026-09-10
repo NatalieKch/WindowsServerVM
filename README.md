@@ -1,12 +1,12 @@
 <h1>Virtualized AD domain in Azure</h1>
 
-In this project I’ll present to you how to set up a Windows Server 2022 VM in Azure, to connect to that server using Azure Bastion, to set a static IP and install key features for practicing some tasks in Active Directory. So those features will be: Active Directory, DNS and DHCP. 
+In this project I’ll present to you how to set up a Windows Server 2022 VM in Azure, to connect to that server using Azure Bastion, to set up a static IP and install key features for practicing some tasks in Active Directory. So those features will be: Active Directory, DNS and DHCP. 
 <br />
 
 
 <h2>Utilities Used</h2>
 
-- <b>Azure</b> 
+- <b>For this project you need an active Azure account with "pay-as-you-go" subscription preferably. The cost for using Azure resources will be pretty low if you delete used resources after finishing your lab. </b> 
 
 <h2>Environments Used </h2>
 
