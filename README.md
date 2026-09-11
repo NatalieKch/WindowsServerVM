@@ -1,6 +1,6 @@
 <h1>Set Up a Windows Server VM in Azure</h1>
 
-In this project I’ll present to you how to set up a Windows Server 2022 VM in Azure, to connect to that server using Azure Bastion, to set up a static IP and install key features for practicing some tasks in Active Directory. So those features will be: Active Directory, DNS and DHCP. 
+In this project I’ll present to you how to set up a Windows Server 2022 VM in Azure, how to connect to that Windows server using Azure Bastion, to set up a static IP and install key features for practicing some tasks in Active Directory. So those features will be: Active Directory, DNS and DHCP. 
 <br />
 
 
@@ -10,13 +10,14 @@ In this project I’ll present to you how to set up a Windows Server 2022 VM in 
 
 <h2>Environments Used </h2>
 
-- <b>Windows 10</b> (21H2)
+- <b>Microsoft Azure</b> (21H2)
 
-<h2>Program walk-through:</h2>
+<h2>Project walk-through:</h2>
 
 <p align="center">
-Launch the utility: <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+From the main page of your Azure account choose "Create a resource". Then choose "Virtual machine"<br/>
+ <img width="1920" height="844" alt="1 (1)" src="https://github.com/user-attachments/assets/c1b2a050-6a83-4245-a50c-a6cb21a52560" />
+
 <br />
 <br />
 Select the disk:  <br/>
