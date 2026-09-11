@@ -10,7 +10,7 @@ In this project I’ll present to you how to set up a Windows Server 2022 VM in 
 
 <h2>Environments Used </h2>
 
-- <b>Microsoft Azure</b> (21H2)
+- <b>Microsoft Azure</b>
 
 <h2>Project walk-through:</h2>
 
@@ -20,8 +20,16 @@ From the main page of your Azure account choose "Create a resource". Then choose
 
 <br />
 <br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Create a new resource group, name your virtual machine and fill out all fields:  <br/>
+<img width="1920" height="837" alt="1 (9)" src="https://github.com/user-attachments/assets/f191abb1-c18f-4794-9e92-e5dce2928967" />
+
+For sizes it is enough to choose Standard E2ds v7. Something with 1 vcpu and 1 or 2 GiB of memory is way too slow. <br/>
+<img width="1920" height="837" alt="1 (2)" src="https://github.com/user-attachments/assets/99c830da-f7b2-4bb9-b398-6be43ee4947e" />
+
+<img width="1920" height="832" alt="1 (3)" src="https://github.com/user-attachments/assets/a2d1334b-35c8-43f0-8d17-d52fab36e469" />
+
+When all of this is complete choose "Review And Create"
+
 <br />
 <br />
 Enter the number of passes: <br/>
