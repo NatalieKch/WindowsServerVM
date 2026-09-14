@@ -1,6 +1,6 @@
 <h1>Set Up a Windows Server VM in Azure</h1>
 
-In this project I’ll present to you how to set up a Windows Server 2022 VM in Azure, how to connect to that Windows server using Azure Bastion, to set up a static IP and install key features for practicing some tasks in Active Directory. So those features will be: Active Directory, DNS and DHCP. 
+In this project I’ll present to you how to deploy a Windows Server 2022 VM in Azure, how to connect to that Windows server VM through Azure Bastion and install key features for practicing some tasks in Active Directory. 
 <br />
 
 
@@ -70,49 +70,37 @@ Here you can choose your server roles. Keep "Continue" <br/>
 <br/>
 <img width="1687" height="880" alt="1 (23)" src="https://github.com/user-attachments/assets/e7dfa6c3-d0ef-497f-95d1-1f3eeb7b017c" />
 <br/>
-If you want to simulate to have also a print server you can add "Print And Document Services" to your server roles<br/>
+If you want to simulate also a print server you can add "Print And Document Services" to your server roles<br/>
 <img width="1920" height="884" alt="1 (24)" src="https://github.com/user-attachments/assets/0a7a015a-ad4f-4f48-9c0d-42a3c5c79366" />
 <br/>
 <br/>
+In Features make sure Group Policy Management is checked. Keep going with "Next" <br/>
+<img width="1920" height="878" alt="1 (25)" src="https://github.com/user-attachments/assets/e0b448d4-8a91-42b6-84e1-7d27dae547c4" />
+<br/>
+<img width="1920" height="878" alt="1 (26)" src="https://github.com/user-attachments/assets/db617a79-1db4-4706-9462-46e486d35a9f" />
+<br/>
+<img width="1920" height="884" alt="1 (27)" src="https://github.com/user-attachments/assets/a2f79fd9-4ca6-45c1-a6a7-ccf6194a739e" />
+<br/>
+<img width="1920" height="880" alt="1 (28)" src="https://github.com/user-attachments/assets/356b6d90-c03e-4382-8a79-85026fd49357" />
+<br/>
+<img width="1920" height="882" alt="1 (29)" src="https://github.com/user-attachments/assets/8a91b4c8-f114-45ee-8afe-c8be10c86b2e" />
+<br/>
+<img width="1471" height="877" alt="1 (30)" src="https://github.com/user-attachments/assets/047617f6-24d0-4bc8-8349-b24a1dc8bcff" />
+<br/>
+<img width="1479" height="881" alt="1 (31)" src="https://github.com/user-attachments/assets/7f6e6958-f10f-4175-a7a5-11c117e88a1d" />
+<br/>
+<img width="1363" height="875" alt="1 (32)" src="https://github.com/user-attachments/assets/2161ecac-f916-4300-9cde-b0e8f276f1cc" />
+<br/>
+<br/>
+Now click "Install" <br/>
+<img width="1496" height="880" alt="1 (33)" src="https://github.com/user-attachments/assets/61a56212-9e78-419e-9c12-bae8ac340e01" />
+<br/>
+<img width="1579" height="878" alt="1 (34)" src="https://github.com/user-attachments/assets/dfca8020-8e50-489c-8370-42f4704c4b4e" />
+<br/>
+<br/>
+Now you have a fully functional Windows server instance <br/>
+<img width="1920" height="878" alt="1 (35)" src="https://github.com/user-attachments/assets/fe0685ac-d047-4964-b71b-d943ff7d7475" />
+<br/>
+<br/>
+Now in "Search" you can find AD, DHCP, DNS manager, Print Management. You just need to configure it. I will present how to do that in my next labs. 
 
-
-
-
-
-
-
-
-
-
-
-<br />
-<br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-
-<!--
- ```diff
-- text in red
-+ text in green
-! text in orange
-# text in gray
-@@ text in purple (and bold)@@
-```
---!>
